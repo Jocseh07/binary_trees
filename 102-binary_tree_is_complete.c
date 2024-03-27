@@ -43,10 +43,7 @@ int check_is_complete(const binary_tree_t *tree, size_t t_depth, size_t level)
 		}
 		else
 		{
-			if (has_sibling((binary_tree_t *)tree) == 1)
-				return (1);
-			else
-				return (0);
+			return (0);
 		}
 	}
 	if (tree->left == NULL || tree->right == NULL)
