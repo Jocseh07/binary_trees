@@ -3,7 +3,8 @@
 /**
  * array_to_bst - build binary search tree from an array
  * @array: pointer to first element of the array to be converted
- * size: number of element in the array
+ * @size: number of element in the array
+ * Return: the bst
  */
 
 bst_t *array_to_bst(int *array, size_t size)
