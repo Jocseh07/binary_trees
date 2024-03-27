@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "stddef.h": "c",
-    "binary_trees.h": "c"
+    "binary_trees.h": "c",
+    "random": "c"
   }
 }
