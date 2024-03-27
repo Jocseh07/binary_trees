@@ -10,9 +10,10 @@
 int *heap_to_sorted_array(heap_t *heap, size_t *size)
 {
 	int *a = NULL;
+
 	if (heap == NULL || size == 0)
 		*a = 0;
 	else
 		*a = 1;
-	return (&a);
+	return (a);
 }

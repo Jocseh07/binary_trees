@@ -14,6 +14,14 @@ int binary_tree_is_bst(const binary_tree_t *tree)
 	return (check_if_bst(tree, -2147483647, 2147483647));
 }
 
+/**
+ * check_if_bst - Checks if a binary tree is a valid BST
+ * @tree: pointer to node of tree
+ * @a: low
+ * @b: high
+ * Return: 1 if valid or 0 otherwise
+ */
+
 int check_if_bst(const binary_tree_t *tree, int a, int b)
 {
 	int i, j;
