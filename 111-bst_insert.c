@@ -3,6 +3,7 @@
  * bst_insert - insert a value in bst
  * @tree: double pointer to the root node of the bst to insert
  * @value: vaue to store in the node to be inserted
+ * Return: bst with value
  */
 
 bst_t *bst_insert(bst_t **tree, int value)
